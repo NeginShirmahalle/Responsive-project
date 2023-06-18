@@ -16,7 +16,7 @@ font-size: 96px;
     font-weight:400 ;
     padding: 18px 30px;
 }
-button{
+.firstPage button{
     background-color: #6c63ff;
     color: white;
     border-radius: 4px;
@@ -24,3 +24,34 @@ button{
     padding: 15px 30px;
     line-height: 27px;
 }
+.projectOne{
+    padding: 0 10px;
+}
+.projectOne h2{
+font-size: 64px;
+font-family: 'Playfair', serif;
+text-align: center;
+}
+.projectOne p{
+    font-size: 16px;
+    font-family: 'Playfair', serif;
+    line-height: 30px;
+    }
+    .projectOne a{
+        border-radius: 4px;
+        font-size: 15px;
+        padding: 10px 20px;
+        line-height: 20px;
+        border: 2px solid;
+        color: #6c63ff;
+        
+    }
+  @media (max-width:900px){
+    h1 h2{
+        font-size: 35px;
+        line-height: 2;
+    }
+    p{
+        font-size: 15px;
+    }
+  }
