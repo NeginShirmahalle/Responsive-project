@@ -1,0 +1,26 @@
+.firstPage{
+    background-color: #F9F7FE;
+    text-align: center;
+    font-family: 'Playfair', serif;
+    padding: 80px;
+font-weight: 700;}
+.firstPage p{
+    font-size: 36px;
+    
+}
+.firstPage h1{
+font-size: 96px;
+}
+.firstPage h2{
+    font-size: 24px;
+    font-weight:400 ;
+    padding: 18px 30px;
+}
+button{
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 15px 30px;
+    line-height: 27px;
+}
