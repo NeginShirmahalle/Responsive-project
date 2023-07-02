@@ -68,11 +68,10 @@ background-color: #F9F7FE;
 border-radius: 10px;
 }
 footer .contactBox h4{
-    text-align: center;
     font-size: 48px;
 }
 footer .contactBox p{
-    text-align: center;
+    
     margin: 0;
     font-size: 23px;
 }
@@ -82,7 +81,7 @@ footer .contactBox a{
         padding: 10px 20px;
         line-height: 20px;
         border: 2px solid;
-        color: white;
+        color: white !important;
         background-color: #6c63ff;
 }
 footer .emailLink{
@@ -110,11 +109,14 @@ footer .socialLink a:hover{
     background-color: #6c63ff;
 }
   @media (max-width: 900px) {
-    h1 h2{
-        font-size: 35px;
-        line-height: 2;
+    h1 {
+        font-size: 35px !important;
+    }
+    h2{
+        font-size: 35px !important;
+        line-height: 2 !important;
     }
     p{
-        font-size: 15px;
+        font-size: 15px !important;
     }
   }
